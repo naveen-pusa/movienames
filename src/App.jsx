@@ -4,6 +4,7 @@ import Body from './components/Body'
 import Router from './Router'
 import Overlay from './components/Overlay'
 import { useLocation } from 'react-router-dom'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       {page && <Overlay setPage={setPage}/>}
       
       {location.pathname === '/' && <Body setPage={setPage} /> }
+      <Footer/>
 
     </>
   )
