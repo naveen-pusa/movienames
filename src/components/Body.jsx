@@ -17,7 +17,7 @@ function Body() {
                         Discover Movies
                         <br />
                         <span className='text-danger' style={{ fontSize: "2.5rem" }}>
-                            Worth Watching
+                            Worth Watching 
                         </span>
                     </p>
 

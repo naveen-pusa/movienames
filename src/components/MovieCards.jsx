@@ -12,7 +12,7 @@ function MovieCard(props) {
     // movieData = location.state
 
     useEffect(() => {
-        if (title.name) {
+        if  (title.name) {
             async function movieName() {
                 setMovieData({})
                 let { data } = await axios.get(`https://www.omdbapi.com/?apikey=61e576a4&t=${title.name}`)
