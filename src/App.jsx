@@ -16,10 +16,10 @@ function App() {
       <Router />
       {/* <Overlay/> */}
 
-      {page && <Overlay setPage={setPage}/>}
-      
-      {location.pathname === '/' && <Body setPage={setPage} /> }
-      <Footer/>
+      {page && <Overlay setPage={setPage} />}
+
+      {location.pathname === '/' && <Body setPage={setPage} />}
+      <Footer />
 
     </>
   )

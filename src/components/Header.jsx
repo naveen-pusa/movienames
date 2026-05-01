@@ -7,7 +7,7 @@ function Header(props) {
     let navigate = useNavigate()
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-dark ">
+             <nav className="navbar navbar-expand-lg bg-dark ">
                 <div className="container-fluid">
                     <a className="navbar-brand text-white fs-3 fw-bold " href="/">MovieZone</a>
         

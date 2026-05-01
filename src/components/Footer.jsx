@@ -10,7 +10,7 @@ function Footer() {
         📧 naveenpusa@email.com
       </p>
 
-      <p className="mb-1">
+       <p className="mb-1">
         📞 +91 9876543210
       </p>
 

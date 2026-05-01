@@ -12,7 +12,7 @@ function MovieCard(props) {
     // movieData = location.state
 
     useEffect(() => {
-        if  (title.name) {
+        if (title.name) {
             async function movieName() {
                 setMovieData({})
                 let { data } = await axios.get(`https://www.omdbapi.com/?apikey=61e576a4&t=${title.name}`)
@@ -43,7 +43,7 @@ function MovieCard(props) {
                         </div>
                         <div className='container d-flex flex-column justify-content-center '>
                             <h5><span className='text-white mx-5'>Plot</span></h5>
-                        <span className='text-white mx-5'>{movieData?.Plot}</span>
+                            <span className='text-white mx-5'>{movieData?.Plot}</span>
                         </div>
                         <div className='my-3 container d-flex flex-column justify-content-center'>
                             <h5><span className='text-white mx-5 my-2'>Ratings</span></h5>

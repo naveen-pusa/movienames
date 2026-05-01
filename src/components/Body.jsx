@@ -16,7 +16,7 @@ function Body() {
                     <p className='fw-bolder' style={{ fontSize: "3rem" }}>
                         Discover Movies
                         <br />
-                        <span className='text-danger' style={{ fontSize: "2.5rem" }}>
+                         <span className='text-danger' style={{ fontSize: "2.5rem" }}>  
                             Worth Watching 
                         </span>
                     </p>
